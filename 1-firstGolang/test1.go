@@ -22,3 +22,7 @@ func Test2() {
 	}
 	time.Sleep(time.Second)
 }
+func fibonacci() {
+	//动态规划写斐波那契数列
+
+}
