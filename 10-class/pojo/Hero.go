@@ -1,5 +1,7 @@
 package pojo
 
+import "fmt"
+
 type Hero struct {
 	Name   string
 	Age    int
@@ -12,4 +14,10 @@ func (h *Hero) GetName() string {
 }
 func (h *Hero) SetName(name string) {
 	h.Name = name
+}
+func (h *Hero) walk() {
+	fmt.Println("walk")
+}
+func (h *Hero) run() {
+	fmt.Println("run")
 }
